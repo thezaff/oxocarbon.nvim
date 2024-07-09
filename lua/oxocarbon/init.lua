@@ -334,6 +334,7 @@ vim.api.nvim_set_hl(0, "CmpItemKindFile", {fg = oxocarbon.base01, bg = oxocarbon
 vim.api.nvim_set_hl(0, "CmpItemKindMethod", {fg = oxocarbon.base01, bg = oxocarbon.base15})
 vim.api.nvim_set_hl(0, "CmpItemKindValue", {fg = oxocarbon.base01, bg = oxocarbon.base15})
 vim.api.nvim_set_hl(0, "CmpItemKindEnumMember", {fg = oxocarbon.base01, bg = oxocarbon.base15})
+
 vim.api.nvim_set_hl(0, "NvimTreeImageFile", {fg = oxocarbon.base12, bg = oxocarbon.none})
 vim.api.nvim_set_hl(0, "NvimTreeFolderIcon", {fg = oxocarbon.base12, bg = oxocarbon.none})
 vim.api.nvim_set_hl(0, "NvimTreeWinSeparator", {fg = oxocarbon.base00, bg = oxocarbon.base00})
@@ -343,15 +344,16 @@ vim.api.nvim_set_hl(0, "NvimTreeEmptyFolderName", {fg = oxocarbon.base15, bg = o
 vim.api.nvim_set_hl(0, "NvimTreeOpenedFolderName", {fg = oxocarbon.base15, bg = oxocarbon.none})
 vim.api.nvim_set_hl(0, "NvimTreeNormal", {fg = oxocarbon.base04, bg = oxocarbon.base00})
 
-vim.api.nvim_set_hl(0, "NeoTreeDirectoryName", {fg = oxocarbon.base04, bg = oxocarbon.base00})
-vim.api.nvim_set_hl(0, "NeoTreeDirectoryIcon", {fg = oxocarbon.base04, bg = oxocarbon.base00})
-vim.api.nvim_set_hl(0, "NeoTreeNormal", {fg = oxocarbon.base04, bg = oxocarbon.base00})
-vim.api.nvim_set_hl(0, "NeoTreeNormalNC", {fg = oxocarbon.base04, bg = oxocarbon.base00})
+
 vim.api.nvim_set_hl(0, "NeoTreeExpander", {fg = oxocarbon.base04, bg = oxocarbon.base00})
 vim.api.nvim_set_hl(0, "NeoTreeIndentMarker", {fg = oxocarbon.base04, bg = oxocarbon.base00})
 vim.api.nvim_set_hl(0, "NeoTreeRootName", {fg = oxocarbon.base04, bg = oxocarbon.base00})
 vim.api.nvim_set_hl(0, "NeoTreeSymbolicLinkTarget", {fg = oxocarbon.base04, bg = oxocarbon.base00})
-vim.api.nvim_set_hl(0, "NeoTreeModifiedormal", {fg = oxocarbon.base04, bg = oxocarbon.base00})
+vim.api.nvim_set_hl(0, "NeoTreeModified", {fg = oxocarbon.base04, bg = oxocarbon.base00})
+vim.api.nvim_set_hl(0, "NeoTreeDirectoryName", {fg = oxocarbon.base04, bg = oxocarbon.base00})
+vim.api.nvim_set_hl(0, "NeoTreeDirectoryIcon", {fg = oxocarbon.base12, bg = oxocarbon.none})
+vim.api.nvim_set_hl(0, "NeoTreeNormalNC", {fg = oxocarbon.base04, bg = oxocarbon.base00})
+vim.api.nvim_set_hl(0, "NeoTreeNormal", {fg = oxocarbon.base04, bg = oxocarbon.base00})
 
 vim.api.nvim_set_hl(0, "NeogitBranch", {fg = oxocarbon.base10, bg = oxocarbon.none})
 vim.api.nvim_set_hl(0, "NeogitRemote", {fg = oxocarbon.base09, bg = oxocarbon.none})

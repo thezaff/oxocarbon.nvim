@@ -351,7 +351,7 @@ vim.api.nvim_set_hl(0, "NeoTreeRootName", {fg = oxocarbon.base04, bg = oxocarbon
 vim.api.nvim_set_hl(0, "NeoTreeSymbolicLinkTarget", {fg = oxocarbon.base04, bg = oxocarbon.base00})
 vim.api.nvim_set_hl(0, "NeoTreeModified", {fg = oxocarbon.base04, bg = oxocarbon.base00})
 vim.api.nvim_set_hl(0, "NeoTreeDirectoryName", {fg = oxocarbon.base04, bg = oxocarbon.base00})
-vim.api.nvim_set_hl(0, "NeoTreeDirectoryIcon", {fg = oxocarbon.base12, bg = oxocarbon.none})
+vim.api.nvim_set_hl(0, "NeoTreeDirectoryIcon", {fg = oxocarbon.base10, bg = oxocarbon.none})
 vim.api.nvim_set_hl(0, "NeoTreeNormalNC", {fg = oxocarbon.base04, bg = oxocarbon.base00})
 vim.api.nvim_set_hl(0, "NeoTreeNormal", {fg = oxocarbon.base04, bg = oxocarbon.base00})
 

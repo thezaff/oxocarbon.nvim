@@ -1,7 +1,7 @@
 local _local_1_ = require("oxocarbon.colorutils")
 local blend_hex = _local_1_["blend-hex"]
 if vim.g.colors_name then
-    vim.cmd.hi("clear")
+	vim.cmd.hi("clear")
 else
 end
 vim.g["colors_name"] = "oxocarbon"
@@ -9,8 +9,53 @@ vim.o["termguicolors"] = true
 local base00 = "#161616"
 local base06 = "#ffffff"
 local base09 = "#78a9ff"
-local oxocarbon = (((vim.o.background == "dark") and { base00 = base00, base01 = blend_hex(base00, base06, 0.085), base02 = blend_hex(base00, base06, 0.18), base03 = blend_hex(base00, base06, 0.3), base04 = blend_hex(base00, base06, 0.82), base05 = blend_hex(base00, base06, 0.95), base06 = base06, base07 = "#08bdba", base08 = "#3ddbd9", base09 = base09, base10 = "#ee5396", base11 = "#33b1ff", base12 = "#ff7eb6", base13 = "#42be65", base14 = "#be95ff", base15 = "#82cfff", blend = "#131313", none = "NONE" }) or { base00 = base06, base01 = blend_hex(base00, base06, 0.95), base02 = blend_hex(base00, base06, 0.82), base03 = base00, base04 = "#37474F", base05 = "#90A4AE", base06 = "#525252", base07 = "#08bdba", base08 = "#ff7eb6", base09 = "#ee5396", base10 = "#FF6F00", base11 = "#0f62fe", base12 = "#673AB7", base13 = "#42be65", base14 = "#be95ff", base15 = "#FFAB91", blend = "#FAFAFA", none = "NONE" })
-do end
+local oxocarbon = (
+	(
+		(vim.o.background == "dark")
+		and {
+			base00 = base00,
+			base01 = blend_hex(base00, base06, 0.085),
+			base02 = blend_hex(base00, base06, 0.18),
+			base03 = blend_hex(base00, base06, 0.3),
+			base04 = blend_hex(base00, base06, 0.82),
+			base05 = blend_hex(base00, base06, 0.95),
+			base06 = base06,
+			base07 = "#08bdba",
+			base08 = "#3ddbd9",
+			base09 = base09,
+			base10 = "#ee5396",
+			base11 = "#33b1ff",
+			base12 = "#ff7eb6",
+			base13 = "#42be65",
+			base14 = "#be95ff",
+			base15 = "#82cfff",
+			blend = "#131313",
+			none = "NONE",
+		}
+	)
+	or {
+		base00 = base06,
+		base01 = blend_hex(base00, base06, 0.95),
+		base02 = blend_hex(base00, base06, 0.82),
+		base03 = base00,
+		base04 = "#37474F",
+		base05 = "#90A4AE",
+		base06 = "#525252",
+		base07 = "#08bdba",
+		base08 = "#ff7eb6",
+		base09 = "#ee5396",
+		base10 = "#FF6F00",
+		base11 = "#0f62fe",
+		base12 = "#673AB7",
+		base13 = "#42be65",
+		base14 = "#be95ff",
+		base15 = "#FFAB91",
+		blend = "#FAFAFA",
+		none = "NONE",
+	}
+)
+do
+end
 (vim.g)["terminal_color_0"] = oxocarbon.base01
 vim.g["terminal_color_1"] = oxocarbon.base11
 vim.g["terminal_color_2"] = oxocarbon.base14
@@ -365,7 +410,6 @@ vim.api.nvim_set_hl(0, "NvimTreeEmptyFolderName", { fg = oxocarbon.base15, bg = 
 vim.api.nvim_set_hl(0, "NvimTreeOpenedFolderName", { fg = oxocarbon.base15, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NvimTreeNormal", { fg = oxocarbon.base04, bg = oxocarbon.base00 })
 
-
 vim.api.nvim_set_hl(0, "NeoTreeDirectoryName", { fg = oxocarbon.base09, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeoTreeDirectoryIcon", { fg = oxocarbon.base12, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { fg = oxocarbon.base04, bg = oxocarbon.none })
@@ -374,7 +418,7 @@ vim.api.nvim_set_hl(0, "NeoTreeExpander", { fg = oxocarbon.base04, bg = oxocarbo
 vim.api.nvim_set_hl(0, "NeoTreeIndentMarker", { fg = oxocarbon.base02, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeoTreeRootName", { fg = oxocarbon.base04, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeoTreeSymbolicLinkTarget", { fg = oxocarbon.base04, bg = oxocarbon.none })
-vim.api.nvim_set_hl(0, "NeoTreeModified", { fg = oxocarbon.base04, bg = oxocarbon.base00 })
+vim.api.nvim_set_hl(0, "NeoTreeModified", { fg = oxocarbon.base04, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeoTreeFileNameOpened", { fg = oxocarbon.base15, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeoTreeWinSeparator", { fg = oxocarbon.base00, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeoTreeGitAdded", { fg = oxocarbon.base11 })
@@ -433,9 +477,6 @@ vim.api.nvim_set_hl(0, "NeoTreeTabInactive", { fg = oxocarbon.base02 })
 --   bg = O.transparent_background and C.none or C.base,
 -- },
 -- NeoTreeStatusLineNC = { fg = C.mantle, bg = C.mantle },
-
-
-
 
 vim.api.nvim_set_hl(0, "NeogitBranch", { fg = oxocarbon.base10, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeogitRemote", { fg = oxocarbon.base09, bg = oxocarbon.none })

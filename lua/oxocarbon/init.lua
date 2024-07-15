@@ -448,5 +448,6 @@ vim.api.nvim_set_hl(0, "VimwikiList", { link = "markdownListMarker" })
 vim.api.nvim_set_hl(0, "VimwikiLink", { link = "markdownUrl" })
 vim.api.nvim_set_hl(0, "VimwikiCode", { link = "markdownCode" })
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim.set_hl(0, "NormalNC", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 return { oxocarbon = oxocarbon }

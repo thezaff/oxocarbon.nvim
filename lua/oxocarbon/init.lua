@@ -434,7 +434,7 @@ vim.api.nvim_set_hl(0, "NeoTreeGitStaged", { fg = oxocarbon.base13 })
 vim.api.nvim_set_hl(0, "NeoTreeTitleBar", { fg = oxocarbon.base01, bg = oxocarbon.base13 })
 vim.api.nvim_set_hl(0, "NeoTreeDimText", { fg = oxocarbon.base03 })
 vim.api.nvim_set_hl(0, "NeoTreeFilterTerm", { fg = oxocarbon.base11 })
-vim.api.nvim_set_hl(0, "NeoTreeTabActive", { fg = oxocarbon.base09 })
+vim.api.nvim_set_hl(0, "NeoTreeTabActive", { fg = oxocarbon.base11 })
 vim.api.nvim_set_hl(0, "NeoTreeTabInactive", { fg = oxocarbon.base02 })
 vim.api.nvim_set_hl(0, "NeoTreeTabSeparatorInactive", { bg = oxocarbon.none, fg = oxocarbon.base02 })
 vim.api.nvim_set_hl(0, "NeoTreeTabSeparatorActive", { bg = oxocarbon.none, fg = oxocarbon.base02 })
@@ -494,7 +494,17 @@ vim.api.nvim_set_hl(0, "alpha2", { fg = oxocarbon.base04, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "alpha3", { fg = oxocarbon.base03, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "CodeBlock", { fg = oxocarbon.none, bg = oxocarbon.base01 })
 vim.api.nvim_set_hl(0, "BufferLineDiagnostic", { fg = oxocarbon.base10, bg = oxocarbon.none, bold = true })
-vim.api.nvim_set_hl(0, "BufferLineDiagnosticVisible", { fg = oxocarbon.base10, bg = oxocarbon.none, bold = true })
+vim.api.nvim_set_hl(
+	0,
+	"BufferLineDiagnosticVisible",
+	{ fg = oxocarbon.base10, bg = oxocarbon.none, bold = true, italic = false }
+)
+vim.api.nvim_set_hl(
+	0,
+	"BufferLineCustomGroupLabel",
+	{ bg = oxocarbon.base01, fg = oxocarbon.base14, bold = true, italic = false }
+)
+vim.api.nvim_set_hl(0, "BufferLineCustomGroupSep", { bg = oxocarbon.base05, fg = oxocarbon.base08 })
 vim.api.nvim_set_hl(0, "htmlH1", { link = "markdownH1" })
 vim.api.nvim_set_hl(0, "mkdRule", { link = "markdownRule" })
 vim.api.nvim_set_hl(0, "mkdListItem", { link = "markdownListMarker" })

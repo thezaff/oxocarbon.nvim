@@ -496,6 +496,9 @@ vim.api.nvim_set_hl(0, "CodeBlock", { fg = oxocarbon.none, bg = oxocarbon.base01
 vim.api.nvim_set_hl(0, "BufferLineDiagnostic", { fg = oxocarbon.base10, bg = oxocarbon.none, bold = true })
 vim.api.nvim_set_hl(0, "BufferLineFill", { bg = oxocarbon.base00 })
 vim.api.nvim_set_hl(0, "BufferLineBufferSelected", { bg = oxocarbon.base01 })
+vim.api.nvim_set_hl(0, "BufferLineMiniIconsAzureSelected", { bg = oxocarbon.base01 })
+vim.api.nvim_set_hl(0, "BufferLineMiniIconsAzureInactive", { bg = oxocarbon.base00 })
+
 vim.api.nvim_set_hl(
 	0,
 	"BufferLineDiagnosticVisible",

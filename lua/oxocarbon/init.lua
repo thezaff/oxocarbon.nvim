@@ -380,27 +380,6 @@ vim.api.nvim_set_hl(0, "CmpItemKindFile", { fg = oxocarbon.base01, bg = oxocarbo
 vim.api.nvim_set_hl(0, "CmpItemKindMethod", { fg = oxocarbon.base01, bg = oxocarbon.base15 })
 vim.api.nvim_set_hl(0, "CmpItemKindValue", { fg = oxocarbon.base01, bg = oxocarbon.base15 })
 vim.api.nvim_set_hl(0, "CmpItemKindEnumMember", { fg = oxocarbon.base01, bg = oxocarbon.base15 })
-
--- NvimTreeFolderName = { fg = C.blue },
--- NvimTreeFolderIcon = { fg = C.blue },
--- NvimTreeNormal = { fg = C.text, bg = O.transparent_background and C.none or C.mantle },
--- NvimTreeOpenedFolderName = { fg = C.blue },
--- NvimTreeEmptyFolderName = { fg = C.blue },
--- NvimTreeIndentMarker = { fg = C.overlay0 },
--- NvimTreeWinSeparator = {
---   fg = O.transparent_background and C.surface1 or C.base,
---   bg = O.transparent_background and C.none or C.base,
--- },
--- NvimTreeRootFolder = { fg = C.lavender, style = { "bold" } },
--- NvimTreeSymlink = { fg = C.pink },
--- NvimTreeStatuslineNc = { fg = C.mantle, bg = C.mantle },
--- NvimTreeGitDirty = { fg = C.yellow },
--- NvimTreeGitNew = { fg = C.blue },
--- NvimTreeGitDeleted = { fg = C.red },
--- NvimTreeSpecialFile = { fg = C.flamingo },
--- NvimTreeImageFile = { fg = C.text },
--- NvimTreeOpenedFile = { fg = C.pink },
-
 vim.api.nvim_set_hl(0, "NvimTreeImageFile", { fg = oxocarbon.base12, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NvimTreeFolderIcon", { fg = oxocarbon.base12, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NvimTreeWinSeparator", { fg = oxocarbon.base00, bg = oxocarbon.base00 })
@@ -409,7 +388,6 @@ vim.api.nvim_set_hl(0, "NvimTreeIndentMarker", { fg = oxocarbon.base02, bg = oxo
 vim.api.nvim_set_hl(0, "NvimTreeEmptyFolderName", { fg = oxocarbon.base15, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NvimTreeOpenedFolderName", { fg = oxocarbon.base15, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NvimTreeNormal", { fg = oxocarbon.base04, bg = oxocarbon.base00 })
-
 vim.api.nvim_set_hl(0, "NeoTreeDirectoryName", { fg = oxocarbon.base09, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeoTreeDirectoryIcon", { fg = oxocarbon.base12, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { fg = oxocarbon.base04, bg = oxocarbon.none })
@@ -429,8 +407,6 @@ vim.api.nvim_set_hl(0, "NeoTreeGitModified", { fg = oxocarbon.base14 })
 vim.api.nvim_set_hl(0, "NeoTreeGitUnstaged", { fg = oxocarbon.base10 })
 vim.api.nvim_set_hl(0, "NeoTreeGitUntracked", { fg = oxocarbon.base09 })
 vim.api.nvim_set_hl(0, "NeoTreeGitStaged", { fg = oxocarbon.base13 })
--- vim.api.nvim_set_hl(0, "NeoTreeFloatBorder", {})
--- vim.api.nvim_set_hl(0, "NeoTreeFloatTitle", {})
 vim.api.nvim_set_hl(0, "NeoTreeTitleBar", { fg = oxocarbon.base01, bg = oxocarbon.base13 })
 vim.api.nvim_set_hl(0, "NeoTreeDimText", { fg = oxocarbon.base03 })
 vim.api.nvim_set_hl(0, "NeoTreeFilterTerm", { fg = oxocarbon.base11 })
@@ -438,48 +414,6 @@ vim.api.nvim_set_hl(0, "NeoTreeTabActive", { fg = oxocarbon.base11 })
 vim.api.nvim_set_hl(0, "NeoTreeTabInactive", { fg = oxocarbon.base02 })
 vim.api.nvim_set_hl(0, "NeoTreeTabSeparatorInactive", { bg = oxocarbon.none, fg = oxocarbon.base02 })
 vim.api.nvim_set_hl(0, "NeoTreeTabSeparatorActive", { bg = oxocarbon.none, fg = oxocarbon.base02 })
--- vim.api.nvim_set_hl(0, "NeoTreeTabSeparatorActive", {})
--- vim.api.nvim_set_hl(0, "NeoTreeTabSeparatorInactive", {})
--- vim.api.nvim_set_hl(0, "NeoTreeVertSplit", {})
--- vim.api.nvim_set_hl(0, "NeoTreeStatusLineNC", {})
-
--- NeoTreeDirectoryName = { fg = C.blue },
--- NeoTreeDirectoryIcon = { fg = C.blue },
--- NeoTreeNormal = { fg = C.text, bg = active_bg },
--- NeoTreeNormalNC = { fg = C.text, bg = active_bg },
--- NeoTreeExpander = { fg = C.overlay0 },
--- NeoTreeIndentMarker = { fg = C.overlay0 },
--- NeoTreeRootName = { fg = C.blue, style = { "bold" } },
--- NeoTreeSymbolicLinkTarget = { fg = C.pink },
--- NeoTreeModified = { fg = C.peach },
-
--- NeoTreeGitAdded = { fg = C.green },
--- NeoTreeGitConflict = { fg = C.red },
--- NeoTreeGitDeleted = { fg = C.red },
--- NeoTreeGitIgnored = { fg = C.overlay0 },
--- NeoTreeGitModified = { fg = C.yellow },
--- NeoTreeGitUnstaged = { fg = C.red },
--- NeoTreeGitUntracked = { fg = C.mauve },
--- NeoTreeGitStaged = { fg = C.green },
-
--- NeoTreeFloatBorder = { link = "FloatBorder" },
--- NeoTreeFloatTitle = { link = "FloatTitle" },
--- NeoTreeTitleBar = { fg = C.mantle, bg = C.blue },
-
--- NeoTreeFileNameOpened = { fg = C.pink },
--- NeoTreeDimText = { fg = C.overlay1 },
--- NeoTreeFilterTerm = { fg = C.green, style = { "bold" } },
--- NeoTreeTabActive = { bg = active_bg, fg = C.lavender, style = { "bold" } },
--- NeoTreeTabInactive = { bg = inactive_bg, fg = C.overlay0 },
--- NeoTreeTabSeparatorActive = { fg = active_bg, bg = active_bg },
--- NeoTreeTabSeparatorInactive = { fg = inactive_bg, bg = inactive_bg },
--- NeoTreeVertSplit = { fg = C.base, bg = inactive_bg },
--- NeoTreeWinSeparator = {
---   fg = O.transparent_background and C.surface1 or C.base,
---   bg = O.transparent_background and C.none or C.base,
--- },
--- NeoTreeStatusLineNC = { fg = C.mantle, bg = C.mantle },
-
 vim.api.nvim_set_hl(0, "NeogitBranch", { fg = oxocarbon.base10, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeogitRemote", { fg = oxocarbon.base09, bg = oxocarbon.none })
 vim.api.nvim_set_hl(0, "NeogitHunkHeader", { fg = oxocarbon.base04, bg = oxocarbon.base02 })
@@ -499,18 +433,6 @@ vim.api.nvim_set_hl(0, "BufferLineBufferSelected", { bg = oxocarbon.base00 })
 vim.api.nvim_set_hl(0, "BufferLineMiniIconsAzureSelected", { bg = oxocarbon.base00 })
 vim.api.nvim_set_hl(0, "BufferLineMiniIconsAzureInactive", { bg = oxocarbon.base00 })
 vim.api.nvim_set_hl(0, "BufferLineCloseButtonSelected", { bg = oxocarbon.base00 })
-
-vim.api.nvim_set_hl(
-	0,
-	"BufferLineDiagnosticVisible",
-	{ fg = oxocarbon.base10, bg = oxocarbon.none, bold = true, italic = false }
-)
-vim.api.nvim_set_hl(
-	0,
-	"BufferLineCustomGroupLabel",
-	{ bg = oxocarbon.base01, fg = oxocarbon.base14, bold = true, italic = false }
-)
-vim.api.nvim_set_hl(0, "BufferLineCustomGroupSep", { bg = oxocarbon.base05, fg = oxocarbon.base08 })
 vim.api.nvim_set_hl(0, "htmlH1", { link = "markdownH1" })
 vim.api.nvim_set_hl(0, "mkdRule", { link = "markdownRule" })
 vim.api.nvim_set_hl(0, "mkdListItem", { link = "markdownListMarker" })

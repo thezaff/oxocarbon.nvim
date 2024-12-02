@@ -1,9 +1,9 @@
 local oxocarbon = (require("oxocarbon")).oxocarbon
 local colors = {
-	color0 = oxocarbon.base00,
+	color0 = oxocarbon.base02,
 	color1 = oxocarbon.base10,
 	color2 = oxocarbon.base08,
-	color3 = oxocarbon.base02,
+	color3 = oxocarbon.base00,
 	color6 = oxocarbon.base04,
 	color7 = oxocarbon.base09,
 	color8 = oxocarbon.base14,
@@ -36,4 +36,3 @@ return {
 	},
 	command = { a = { fg = colors.color0, bg = colors.color10 } },
 }
-
